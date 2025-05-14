@@ -17,30 +17,6 @@ warnings.filterwarnings("ignore")
 
 
 orders = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
-# params = [
-# {'learning_rate': 0.181,'max_depth': 3,'alpha': 6.248014163607554e-07,'lambda': 3.666161662695617e-06}, 
-# {'learning_rate': 0.086,'max_depth': 3,'alpha': 2.886812764315837e-07,'lambda': 1.2294082899296007e-07}, 
-# {'learning_rate': 0.066,'max_depth': 4,'alpha': 0.2898262687925129,'lambda': 0.0033367001415999143}, 
-# {'learning_rate': 0.076,'max_depth': 3,'alpha': 3.9945333441962694,'lambda': 3.6415021378537495e-07},
-# {'learning_rate': 0.071,'max_depth': 3,'alpha': 0.031506923349484094,'lambda': 1.1562866585387308e-07},
-# {'learning_rate': 0.066,'max_depth': 3,'alpha': 2.7433507561223237e-08,'lambda': 0.004646582626195847},
-# {'learning_rate': 0.041,'max_depth': 4,'alpha': 0.0036167404545273526,'lambda': 1.1505800980709108e-05},
-# {'learning_rate': 0.101,'max_depth': 3,'alpha': 9.374433708232626e-08,'lambda': 3.9340007207957334e-08},
-# {'learning_rate': 0.066,'max_depth': 6,'alpha': 0.008329059650517832,'lambda': 0.001198146925936356},
-# ]  
-
-
-# params = [
-# {'learning_rate':0.13,'max_depth': 6,'alpha': 3e-06,'lambda': 1.3579333841650756}, 
-# {'learning_rate':0.053,'max_depth': 6,'alpha': 8e-08,'lambda': 2.4609306182904254}, 
-# {'learning_rate':0.128,'max_depth': 5,'alpha': 1.5556198654766862,'lambda':0.0004596768817880325}, 
-# {'learning_rate':0.074,'max_depth': 4,'alpha': 9e-5,'lambda':0.12496555079234584}, 
-# {'learning_rate':0.059,'max_depth': 6,'alpha': 1.113262572673615,'lambda': 5.433497546812114}, 
-# {'learning_rate':0.048,'max_depth': 6,'alpha': 9.5e-6,'lambda': 1.1393584205166276},
-# {'learning_rate':0.0514,'max_depth': 6,'alpha': 5e-8,'lambda': 1.51288000208726}, 
-# {'learning_rate':0.074,'max_depth': 6,'alpha': 9.5e-8,'lambda': 1.5142621703105723}, 
-# {'learning_rate':0.097,'max_depth': 5,'alpha': 1.0464246514785462,'lambda':0.12168301246536571}
-# ]
 
 params = [
 
