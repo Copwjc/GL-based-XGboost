@@ -23,16 +23,16 @@ train_num = x_train.shape[0]
 def f(x):
 	return (x**2)/2
 def ncasual(coef,x,f):
-		global k
-		p4 = []
-		p5 = []
-		for i in range(0,k):
-			temp1 = f(x+i)
-			temp2 = f(x-i)
-			p4.append(temp1)
-			p5.append(temp2)
-		out = (sum(np.array(coef).T*(np.array(p5)-np.array(p4))))
-		return out
+	global k
+	p4 = []
+	p5 = []
+	for i in range(0,k):
+		temp1 = f(x+i)
+		temp2 = f(x-i)
+		p4.append(temp1)
+		p5.append(temp2)
+	out = (sum(np.array(coef).T*(np.array(p5)-np.array(p4))))
+	return out
 
 def custom_train(y_true, y_pred):
 	global t, epsilon
@@ -58,8 +58,6 @@ for ordered in orders:
 		coef.append(coefficient(i,ordered))
 	coef = [coef] * train_num
 
-
-	# default lightgbm model with sklearn api
 	xgbr = xgb.XGBRegressor() 
 	def objective(trial):
 		pruning_callback = optuna.integration.LightGBMPruningCallback(trial, mse)
